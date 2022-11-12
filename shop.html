@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amado</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="./assests/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/grid.css">
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <div class="moblie-nav">
+            <div class="mobile-logo">
+                <img src="./assests/img/logo.png" alt="" class="moblie-logo-img">
+            </div>
+            <label for="mobile-check" class="moblie-menu">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+        <div class="shop-container">
+            <!-- sidebar -->
+            <input type="checkbox" hidden id="mobile-check" class="mobile-check">
+            <div class=" shop menu-sidebar">
+                <div class="menu-sidebar-content">
+                    <label for="mobile-check" class="mobile-exit">
+                        <i class="fas fa-times"></i>
+                    </label>
+                    <div class="logo">
+                        <img src="./assests/img/logo.png" alt="">
+                    </div>
+                        <ul class="list-item">
+                            <li class="list-item-nav ">
+                                <a href="./index.html">
+                                    Home
+                                </a>
+                                <div class="main-web-nav-active"></div>
+                            </li>
+                            <li class="list-item-nav ">
+                                <a href="#">
+                                    Shop
+                                <div class="position-nav-active"></div>
+                                </a>
+                            </li>
+                            <li class="list-item-nav">
+                                <a href="./product.html">
+                                    product
+                                </a>
+                            </li>
+                            <li class="list-item-nav">
+                                <a href="./cart.html">
+                                    cart
+                                </a>
+                            </li>
+                            <li class="list-item-nav">
+                                <a href="./checkout.html">
+                                    checkout
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="choice-btn c-0">
+                            <button class="discount-btn btn">discount%</button>
+                            <button class="new-producr-btn btn">New this weekend</button>
+                        </div>
+                        <ul class="menu-quick-access">
+                            <div class="menu-quick-access__nav">
+                                <span><i class="fas fa-cart-plus"></i></span>
+                                cart
+                                <span>(0)</span>
+                            </div>
+                            <div class="menu-quick-access__nav">
+                                <span><i class="fas fa-star"></i></span>
+                                favourite
+                            </div>
+                            <div class="menu-quick-access__nav">
+                                <span><i class="fas fa-search-plus"></i></span>
+                                search
+                            </div>
+                        </ul>
+            
+                        <div class="social-media-contact">
+                            <div class="social-nav">
+                                <i class="fab fa-pinterest"></i>
+                            </div>
+                            <div class="social-nav">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="social-nav">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <div class="social-nav">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+            <!-- menu-cate -->
+            <div class="menu-cate mi-0">
+                <ul class="menu-cate-list">
+                    Categories
+                    <li class="menu-cate-list-item active">Chairs</li>
+                    <li class="menu-cate-list-item">Beds</li>
+                    <li class="menu-cate-list-item">Accesories</li>
+                    <li class="menu-cate-list-item">Furniture</li>
+                    <li class="menu-cate-list-item">Home Deco</li>
+                    <li class="menu-cate-list-item">Dressings</li>
+                    <li class="menu-cate-list-item">Tables</li>
+                </ul>
+
+                <ul class="menu-cate-list-brand">
+                    Brands
+                    <li class="menu-cate-list-brand-item ">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                        </div>
+                        <span class="">Amado</span>
+                    </li>
+                    <li class="menu-cate-list-brand-item">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                        </div>
+                        <span>Ikea</span>
+                    </li>
+                    <li class="menu-cate-list-brand-item">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                        </div>
+                        <span>Furniture Inc</span>
+                    </li>
+                    <li class="menu-cate-list-brand-item">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                        </div>
+                        <span>The factory</span>
+                    </li>
+                    <li class="menu-cate-list-brand-item">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                        </div>
+                        <span>Artdeco</span>
+                    </li>
+                </ul>
+                
+                <div class="menu-cate-color">
+                    Color
+                    <ul class="menu-cate-list-color">
+                        <li class="menu-cate-list-color-item">
+                            <div class="color-1"></div>
+                        </li>
+                        <li class="menu-cate-list-color-item">
+                            <div class="color-2"></div>
+                        </li>
+                        <li class="menu-cate-list-color-item">
+                            <div class="color-3"></div>
+                        </li>
+    
+                        <li class="menu-cate-list-color-item">
+                            <div class="color-4"></div>
+                        </li>
+                        <li class="menu-cate-list-color-item">
+                            <div class="color-5"></div>
+                        </li>
+                        <li class="menu-cate-list-color-item">
+                            <div class="color-6"></div>
+                        </li>
+                        <li class="menu-cate-list-color-item">
+                            <div class="color-7"></div>
+                        </li>
+                        <li class="menu-cate-list-color-item">
+                            <div class="color-8"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-container">
+                <div class="product-page">SHOW 1-8 OF 25</div>
+                <div class="product-view">
+                    <div class="product-view-form">
+                        <div class=" product-view-form-slide">
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                        <div class=" product-view-form-text">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="product-view-choice">
+                        <div class="product-view-choice-date">
+                            <ul class="product-view-choice-date-list">
+                                Sort by
+                                <span>Date</span>
+                                <div class="product-view-choice-date-list-items">
+                                    <li class="product-view-choice-date-list-item">Date</li>
+                                    <li class="product-view-choice-date-list-item">News</li>
+                                    <li class="product-view-choice-date-list-item">Popular</li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="product-view-choice-viewer">
+                            <ul class="product-view-choice-viewer-list">
+                                View
+                                
+                                <span>12</span>
+                                <div class="product-view-choice-viewer-list-items">
+                                    <li class="product-view-choice-viewer-list-item">12</li>
+                                    <li class="product-view-choice-viewer-list-item">24</li>
+                                    <li class="product-view-choice-viewer-list-item">48</li>
+                                    <li class="product-view-choice-viewer-list-item">96</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-list-product">
+                    <div class="grid wide">
+                        <div class="row list-product">
+                            <div class="l-1"></div>
+                            <div class="l-5 c-10 c-o-1 mi-10 mi-o-1 lr-10 lr-o-1">
+                                <div class="list-product-items-nav">
+                                    <div class="list-product-item-nav-img">
+                                        <img src="./assests/img/1.jpg" alt="">
+                                    </div>
+                                    <div class="list-product-item-nav-intro">
+                                        <div class="list-product-item-nav-intro-sale">
+                                                <div class="list-product-item-nav-intro-sale-price">180$</div>
+                                                <div class="list-product-item-nav-intro-sale-heading">Modern chair</div>
+                                        </div>
+        
+                                        <div class="list-product-item-nav-intro-appre">
+                                            <div class="list-product-item-nav-intro-appre-star">
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                            
+                                            </div>
+                                            <div class="list-product-item-nav-intro-appre-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    
+            
+                                </div>
+                            </div>
+                            <div class="l-5 c-10 c-o-1 mi-10 mi-o-1 lr-10 lr-o-1">
+                                <div class="list-product-items-nav">
+                                    <div class="list-product-item-nav-img">
+                                        <img src="./assests/img/5.jpg" alt="">
+                                    </div>
+                                    <div class="list-product-item-nav-intro">
+                                        <div class="list-product-item-nav-intro-sale">
+                                                <div class="list-product-item-nav-intro-sale-price">18$</div>
+                                                <div class="list-product-item-nav-intro-sale-heading">Plant Pot</div>
+                                        </div>
+        
+                                        <div class="list-product-item-nav-intro-appre">
+                                            <div class="list-product-item-nav-intro-appre-star">
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <div class="list-product-item-nav-intro-appre-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-1"></div>
+                            <div class="l-1"></div>
+                            <div class="l-5 c-10 c-o-1 mi-10 mi-o-1 lr-10 lr-o-1">
+                                <div class="list-product-items-nav">
+                                    <div class="list-product-item-nav-img">
+                                        <img src="./assests/img/7.jpg" alt="">
+                                    </div>
+                                    <div class="list-product-item-nav-intro">
+                                        <div class="list-product-item-nav-intro-sale">
+                                                <div class="list-product-item-nav-intro-sale-price">318$</div>
+                                                <div class="list-product-item-nav-intro-sale-heading">Metallic chair</div>
+                                        </div>
+        
+                                        <div class="list-product-item-nav-intro-appre">
+                                            <div class="list-product-item-nav-intro-appre-star">
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <div class="list-product-item-nav-intro-appre-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-5 c-10 c-o-1 mi-10 mi-o-1 lr-10 lr-o-1">
+                                <div class="list-product-items-nav">
+                                    <div class="list-product-item-nav-img">
+                                        <img src="./assests/img/product6.jpg" alt="">
+                                    </div>
+                                    <div class="list-product-item-nav-intro">
+                                        <div class="list-product-item-nav-intro-sale">
+                                                <div class="list-product-item-nav-intro-sale-price">380$</div>
+                                                <div class="list-product-item-nav-intro-sale-heading">Lightn Fixture</div>
+                                        </div>
+        
+                                        <div class="list-product-item-nav-intro-appre">
+                                            <div class="list-product-item-nav-intro-appre-star">
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <div class="list-product-item-nav-intro-appre-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-1"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="number-page">
+                    <div class="page page-active">1</div>
+                    <div class="page">2</div>
+                    <div class="page">3</div>
+                    <div class="page">4</div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer-introduce">
+                <div class="footer-contact">
+                    <div class="footer-contact-sale">
+                        <h1>Subscribe for a
+                            <span>25% Discount</span>
+                        </h1>
+                        <p>Nulla ac convallis lorem, eget euismod nisl. Donec in libero sit amet mi vulputate consectetur. Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
+                    </div>
+                    <div class="footer-contact-email">
+                        <input type="email"placeholder = "Your Email">
+                        <div class="footer-contact-btn">Subcribe</div>
+                    </div>
+                </div>
+                <div class="footer-more-infor">
+                    <div class="footer-more-infor-source">
+                        <img src="./assests/img/logo2.png" alt="">
+                        <p class="footer-more-infor-source-para">
+                            Copyright ©2022 All rights reserved | This template is made with by student of UET
+                        </p>                            
+                    </div>
+    
+                    <div class="footer-more-infor-nav c-0">
+                        <ul class="footer-more-infor-nav-list">
+                            <li class="footer-more-infor-nav-list-item ">
+                                <a href="./index.html">HOME</a>
+                            </li>
+                            <li class="footer-more-infor-nav-list-item">
+                                <a class="active" href="#">SHOP</a>
+                            </li>
+                            <li class="footer-more-infor-nav-list-item">
+                                <a href="./product.html">PRODUCT</a>
+                            </li>
+                            <li class="footer-more-infor-nav-list-item">
+                                <a href="./cart.html">CART</a>
+                            </li>
+                            <li class="footer-more-infor-nav-list-item">
+                                <a href="./checkout.html">CHECKOUT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const listStar = document.querySelectorAll('.list-product-item-nav-intro-appre')
+        const date = document.querySelector('.product-view-choice-date-list span')
+        const listDate = document.querySelectorAll('.product-view-choice-date-list-item')
+        const view = document.querySelector('.product-view-choice-viewer-list span')
+        const listView = document.querySelectorAll('.product-view-choice-viewer-list-item')
+        listDate.forEach((item,index)=>{
+            item.onclick = function(){
+                date.innerText = item.innerText;
+            }
+        })
+        listView.forEach((item,index)=>{
+            item.onclick = function(){
+                view.innerText = item.innerText;
+            }
+        })
+        listStar.forEach((item,index)=>{
+            let stars = item.querySelectorAll('.star');
+            stars.forEach((star,i)=>{
+                star.onclick = function(){
+                    for(var y = 0;y<=i;y++){
+                        if(!stars[y].classList.contains('star-appre-active')){
+                            stars[y].classList.add('star-appre-active');
+                        }
+                        else if(i <= y){
+                            for(var x = y;x<stars.length-1;x++)
+                            stars[x+1].classList.remove('star-appre-active');
+                        }
+                    }
+            }
+            })
+
+        })
+        
+    </script>
+     
+</body>
+</html>

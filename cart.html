@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amado</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="./assests/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/grid.css">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <div class="moblie-nav">
+            <div class="mobile-logo">
+                <img src="./assests/img/logo.png" alt="" class="moblie-logo-img">
+            </div>
+            <label for="mobile-check" class="moblie-menu">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+        <div class="cart-app">
+            <!-- sidebar -->
+            <input type="checkbox" hidden id="mobile-check" class="mobile-check">
+            <div class=" cart menu-sidebar">
+                <div class="menu-sidebar-content">
+                    <label for="mobile-check" class="mobile-exit">
+                        <i class="fas fa-times"></i>
+                    </label>
+                    <div class="logo">
+                        <img src="./assests/img/logo.png" alt="">
+                    </div>
+                        <ul class="list-item">
+                            <li class="list-item-nav ">
+                                <a href="./index.html">
+                                    Home
+                                </a>
+                                <div class="main-web-nav-active"></div>
+                            </li>
+                            <li class="list-item-nav ">
+                                <a href="./shop.html">
+                                    Shop
+                                </a>
+                            </li>
+                            <li class="list-item-nav">
+                                <a href="./product.html">
+                                    product
+                                </a>
+                            </li>
+                            <li class="list-item-nav">
+                                <a href="#">
+                                    cart
+                                <div class="position-nav-active"></div>
+
+                                </a>
+                            </li>
+                            <li class="list-item-nav">
+                                <a href="./checkout.html">
+                                    checkout
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="choice-btn c-0">
+                            <button class="discount-btn btn">discount%</button>
+                            <button class="new-producr-btn btn">New this weekend</button>
+                        </div>
+                        <ul class="menu-quick-access">
+                            <div class="menu-quick-access__nav">
+                                <span><i class="fas fa-cart-plus"></i></span>
+                                cart
+                                <span>(0)</span>
+                            </div>
+                            <div class="menu-quick-access__nav">
+                                <span><i class="fas fa-star"></i></span>
+                                favourite
+                            </div>
+                            <div class="menu-quick-access__nav">
+                                <span><i class="fas fa-search-plus"></i></span>
+                                search
+                            </div>
+                        </ul>
+            
+                        <div class="social-media-contact">
+                            <div class="social-nav">
+                                <i class="fab fa-pinterest"></i>
+                            </div>
+                            <div class="social-nav">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="social-nav">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <div class="social-nav">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+    
+            <div class="cart-container">
+                <h1 class="shopping-cart">Shopping cart</h1>
+            
+                <div class="grid wide">
+                    <div class="row cart-main">
+                        <div class="col l-8 lr-10 lr-o-1 mi-10 mi-o-1">
+                            <div class="cart-main-content">
+                                <div class="cart-more-product">More Product</div>
+    
+                                <div class="row cart-product cart-title c-0">
+                                    <div class="l-2-4 mi-2-4 lr-2-4 cart-list-cart-product-img">Product images</div>
+                                    <div class="l-2-4 mi-2-4 lr-2-4 cart-list-name">Name</div>
+                                    <div class="l-2-4 mi-2-4 lr-2-4 cart-list-price">Price</div>
+                                    <div class="l-2-4 mi-2-4 lr-2-4 cart-list-quantity">Quantity</div>
+                                    <div class="l-2-4 mi-2-4 lr-2-4 cart-list-add">Add to cart</div>
+                                </div>
+    
+                                <div class="cart-product-container">
+                                    <div class="row cart-product">
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-img">
+                                            <img src="./assests/img/1.jpg" alt="">
+                                        </div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-name">White Modern Chair</div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-price">130</div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-quantity">
+                                            <div class="cart-product-quantity-sub">Qty</div>
+                                            <div class="cart-product-quantity-down">-</div>
+                                            <div class="cart-product-quantity-number">1</div>
+                                            <div class="cart-product-quantity-rise">+</div>
+                                        </div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-add">
+                                            <span>
+                                                <i class="fas fa-plus-square"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row cart-product">
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-img">
+                                            <img src="./assests/img/2.jpg" alt="">
+                                        </div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-name">Minimalistic Plant Pot</div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-price">180</div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-quantity">
+                                            <div class="cart-product-quantity-sub">Qty</div>
+                                            <div class="cart-product-quantity-down">-</div>
+                                            <div class="cart-product-quantity-number">1</div>
+                                            <div class="cart-product-quantity-rise">+</div>
+                                        </div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-add">
+                                            <span>
+                                                <i class="fas fa-plus-square"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row cart-product">
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-img">
+                                            <img src="./assests/img/3.jpg" alt="">
+                                        </div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-name">Modern Chair</div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-price">180</div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-quantity">
+                                            <div class="cart-product-quantity-sub">Qty</div>
+                                            <div class="cart-product-quantity-down">-</div>
+                                            <div class="cart-product-quantity-number">1</div>
+                                            <div class="cart-product-quantity-rise">+</div>
+                                        </div>
+                                        <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-add">
+                                            <span>
+                                                <i class="fas fa-plus-square"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="l-4 lr-8 lr-o-2 c-10 c-o-1 mi-8 mi-o-2">
+                            <div class="cart-total">
+                                <h2 class="cart-total-header">Cart Total</h2>
+                                <div class="cart-total-content">
+                                    <div class="cart-total-value">
+                                        <div class="cart-total-value-item">Subtotal:</div>
+                                        <div class="cart-total-value-price">0</div>
+                                    </div>
+                                    <div class="cart-total-value cart-delivery">
+                                        <div class="cart-total-value-item cart-delivery-item">Delivery:</div>
+                                        <div class="cart-total-value-price cart-delivery-price">0</div>
+                                    </div>
+                                    <div class="cart-total-value cart-sum">
+                                        <div class="cart-total-value-item cart-sum-item">Total:</div>
+                                        <div class="cart-total-value-price cart-sum-price">0</div>
+                                    </div>
+                                </div>
+    
+                                <div class="checkout-btn">Checkout</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer-introduce">
+                <div class="footer-contact">
+                    <div class="footer-contact-sale">
+                        <h1>Subscribe for a
+                            <span>25% Discount</span>
+                        </h1>
+                        <p>Nulla ac convallis lorem, eget euismod nisl. Donec in libero sit amet mi vulputate consectetur. Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
+                    </div>
+                    <div class="footer-contact-email">
+                        <input type="email"placeholder = "Your Email">
+                        <div class="footer-contact-btn">Subcribe</div>
+                    </div>
+                </div>
+                <div class="footer-more-infor">
+                    <div class="footer-more-infor-source">
+                        <img src="./assests/img/logo2.png" alt="">
+                        <p class="footer-more-infor-source-para">
+                            Copyright ©2022 All rights reserved | This template is made with by student of UET
+                        </p>                            
+                    </div>
+    
+                    <div class="footer-more-infor-nav c-0">
+                        <ul class="footer-more-infor-nav-list">
+                            <li class="footer-more-infor-nav-list-item ">
+                                <a href="./index.html">HOME</a>
+                            </li>
+                            <li class="footer-more-infor-nav-list-item">
+                                <a href="./shop.html">SHOP</a>
+                            </li>
+                            <li class="footer-more-infor-nav-list-item">
+                                <a href="./product.html">PRODUCT</a>
+                            </li>
+                            <li class="footer-more-infor-nav-list-item">
+                                <a class="active" href="#">CART</a>
+                            </li>
+                            <li class="footer-more-infor-nav-list-item">
+                                <a href="./checkout.html">CHECKOUT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        const listProduct = [
+            {
+                img: './assests/img/4.jpg',
+                name: 'Night Stand',
+                price: '180'
+            },
+            {
+                img: './assests/img/5.jpg',
+                name: 'Pant Pot',
+                price: '18'
+            },
+            {
+                img: './assests/img/6.jpg',
+                name: 'Small Table',
+                price: '320'
+            },
+            {
+                img: './assests/img/7.jpg',
+                name: 'Metallic Chair',
+                price: '318'
+            },
+            {
+                img: './assests/img/8.jpg',
+                name: 'Modern Rocking Chair',
+                price: '318'
+            },
+            {
+                img: './assests/img/9.jpg',
+                name: 'Home Deco',
+                price: '318'
+            }
+        ]
+
+        const cartContainer = document.querySelector('.cart-product-container');
+        const addBTn = document.querySelector('.cart-more-product');
+        const checkOutBtn = document.querySelector('.checkout-btn');
+        var listCartProduct = cartContainer.querySelectorAll('.cart-product');
+        var down = document.querySelectorAll('.cart-product-quantity-down');
+        var rise = document.querySelectorAll('.cart-product-quantity-rise');
+        var amount = document.querySelectorAll('.cart-product-quantity-number');
+        var addProductToCartBTn = document.querySelectorAll('.cart-product-add span');
+        var nameProduct = document.querySelectorAll('.cart-product-name');
+        var priceProduct = document.querySelectorAll('.cart-product-price');
+        var cartSublPrice = document.querySelector('.cart-total-value-price')
+        var deliveryPrice = document.querySelector('.cart-delivery-price')
+        var cartTotalPrice = document.querySelector('.cart-sum-price')
+        var currentIndex = 0;
+        var currentAmount =[]
+        var result = {}
+        var storageProduct = []
+        var storageValue = []
+        var subTotal = 0;
+        function reNew(){
+            listCartProduct = cartContainer.querySelectorAll('.cart-product');
+            nameProduct = document.querySelectorAll('.cart-product-name');
+            priceProduct = document.querySelectorAll('.cart-product-price');
+            down = document.querySelectorAll('.cart-product-quantity-down');
+            rise = document.querySelectorAll('.cart-product-quantity-rise');
+            amount = document.querySelectorAll('.cart-product-quantity-number');
+            addProductToCartBTn = document.querySelectorAll('.cart-product-add span');
+        }
+
+        function handleAmountItem(){
+            currentAmount.splice(0,currentAmount.length+1)
+            listCartProduct.forEach((item,index)=>{
+                currentAmount.push(amount[index].innerText)
+
+                rise[index].onclick = function(){
+                    amount[index].innerText = ++currentAmount[index];
+                }
+                down[index].onclick = function(){
+                    if(amount[index].innerText>1){
+                    amount[index].innerText = --currentAmount[index];
+                    }
+                }
+                addProductToCartBTn[index].onclick = function(){
+                    result = {
+                        name: nameProduct[index].innerText,
+                        price : Number(priceProduct[index].innerText),
+                        amount : Number(amount[index].innerText),
+                        index
+                    }
+                    storageProduct.push(result)
+                }
+            })
+        }
+
+        function addNewProduct(){
+            addBTn.onclick = function(){
+            if(currentIndex<listProduct.length){
+                let newProduct = document.createElement('div');
+                newProduct.classList.add('row','cart-product');
+                newProduct.innerHTML = `
+                    <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-img">
+                        <img src="${listProduct[currentIndex].img}" alt="">
+                    </div>
+                    <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-name">${listProduct[currentIndex].name}</div>
+                    <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-price">${listProduct[currentIndex].price}</div>
+                    <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-quantity">
+                        <div class="cart-product-quantity-sub">Qty</div>
+                        <div class="cart-product-quantity-down">-</div>
+                        <div class="cart-product-quantity-number">1</div>
+                        <div class="cart-product-quantity-rise">+</div>
+                    </div>
+                    <div class="l-2-4 c-o-1 c-10 mi-2-4 lr-2-4 cart-product-add">
+                        <span>
+                            <i class="fas fa-plus-square"></i>
+                        </span>
+                    </div>
+                `
+                newProduct.classList.add('new-add');
+                cartContainer.appendChild(newProduct)
+                setTimeout(function(){
+                    newProduct.classList.remove('new-add');
+                },
+                1000)
+
+                newProduct.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'nearest'
+                })
+                reNew()
+                handleAmountItem()
+                currentIndex++;
+            }
+            } 
+        }
+
+        function totalPrice(){
+            reNew()
+            if(storageProduct.length>=1){
+                storageProduct.forEach((item,index)=>{
+                    let value = item.price*item.amount;
+                    storageValue.push(value)
+                })
+            }
+        }
+
+        checkOutBtn.onclick = function(){
+            reNew()
+            totalPrice()
+            for(var i= 0;i<storageValue.length;i++){
+                subTotal += storageValue[i];
+                storageValue[i] = 0;
+                storageProduct.shift()
+            }
+            cartSublPrice.innerText = subTotal + ' $';
+            if(subTotal<=500){
+                deliveryPrice.innerText = (Number(subTotal)*10)/100 + ' $'
+            }
+            else{
+                deliveryPrice.innerText = 'Free'
+            }
+            cartTotalPrice.innerText = subTotal + (Number(subTotal)*10)/100 + ' $';
+        }
+
+
+
+        function handleJs (){
+            addNewProduct()
+            handleAmountItem()
+            totalPrice()
+            reNew()
+        }
+        handleJs()
+    </script>
+</body>
+</html>
